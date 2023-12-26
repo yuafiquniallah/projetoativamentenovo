@@ -11,4 +11,18 @@ body {
   height: 100vh;
   position: relative;
   background-color: #E7B147;
+}
+
+button {
+  cursor: pointer;
+  font-family: "Sora", sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
 }/*# sourceMappingURL=style.css.map */
