@@ -1,6 +1,7 @@
 header{
 
     width: 100%;
+    
 }
 
 .header-content {
@@ -18,7 +19,7 @@ i {
     display: flex;
     gap: 14px;  
     margin-top: 20px;
-    margin-left: 20px   ;
+    margin-left: 20px;
 }
 
 .header-icons a:hover {
@@ -38,5 +39,33 @@ i {
             transform: translateY(-8px) scale(1.1);
         }
     }
-   
+
+} 
+
+.header-button {
+    border: 1px solid $gold-ativamente;
+    padding: 8px 24px;
+    border-radius: 5px;
+    color: $white-normal;
+    background-color: transparent;
+    transition: background-color 0.8s;
+
+
+    }
+
+    .header-button:hover {
+        border: 1px solid $gold-ativamente;
+        background-color: $gold-ativamente;
+
+    }
+
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    max-width: 35%;
+ 
 }
+
