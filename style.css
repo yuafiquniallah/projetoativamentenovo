@@ -61,6 +61,28 @@ i {
   max-width: 35%;
 }
 
+@media screen and (min-width: 370px) and (max-width: 1024px) {
+  .header-content {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .header-content i {
+    margin-top: 15px;
+    font-size: 50px;
+    gap: 15px;
+    margin-right: 20px;
+  }
+  .header-button {
+    display: none;
+  }
+  .header-logo {
+    padding-top: 20px;
+    max-width: 700px;
+    width: 500px;
+  }
+}
 body {
   font-family: "Sora", sans-serif;
   width: 100%;
