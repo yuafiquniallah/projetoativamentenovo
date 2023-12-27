@@ -15,12 +15,36 @@ header {
   justify-content: space-between;
 }
 
+i {
+  color: #FFF;
+}
+
+.header-icons {
+  display: flex;
+  gap: 14px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.header-icons a:hover i {
+  animation: translateY 0.8s infinite alternate;
+  color: #E7B147;
+}
+@keyframes translateY {
+  from {
+    transform: translateY(0) scale(1);
+  }
+  to {
+    transform: translateY(-8px) scale(1.1);
+  }
+}
+
 body {
   font-family: "Sora", sans-serif;
   width: 100%;
   height: 100vh;
   position: relative;
-  background-color: #E7B147;
+  background-color: #717378;
 }
 
 button {
