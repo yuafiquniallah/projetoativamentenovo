@@ -8,6 +8,7 @@ header{
         display: flex;
         align-items: center;
         justify-content: space-between;
+        
 }
 
 i {
@@ -18,7 +19,7 @@ i {
 .header-icons {
     display: flex;
     gap: 14px;  
-    margin-top: 20px;
+    margin-bottom: 150px;
     margin-left: 20px;
 }
 
@@ -44,11 +45,14 @@ i {
 
 .header-button {
     border: 1px solid $gold-ativamente;
-    padding: 8px 24px;
+    padding: 8px 14px;
     border-radius: 5px;
     color: $white-normal;
     background-color: transparent;
     transition: background-color 0.8s;
+    margin-right: 20px;
+    position: relative;
+    bottom: 50px;
 
 
     }
@@ -92,7 +96,8 @@ i {
     }
     .header-logo {
 
-        padding-top: 20px;
+        bottom: 100px;
+        position: relative;
         max-width: 500px;
         width: 300px;
 
