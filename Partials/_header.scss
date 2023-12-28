@@ -73,17 +73,17 @@ i {
  
 }
 
-@media screen and (min-width: 370px) and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
     .header-content {
 
-        width: 100%;
+        width: 10%;
         flex-direction: column;
         align-items: center;
         justify-content: center;
 
         i {
             margin-top: 15px;
-            font-size: 50px;
+            font-size: 35px;
             gap: 15px;
             margin-right: 20px
             ;
@@ -100,15 +100,12 @@ i {
         bottom: 100px;
         position: relative;
         max-width: 500px;
-        width: 300px;
+        width: 250px;
 
     }
 
     .bg-home::before {
-
-            position: absolute;
-            width: 100%;
-            height: 100%;
+        background-size: contain;
     }
 
 }

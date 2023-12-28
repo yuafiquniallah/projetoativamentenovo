@@ -64,16 +64,16 @@ i {
   max-width: 30%;
 }
 
-@media screen and (min-width: 370px) and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   .header-content {
-    width: 100%;
+    width: 10%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
   .header-content i {
     margin-top: 15px;
-    font-size: 50px;
+    font-size: 35px;
     gap: 15px;
     margin-right: 20px;
   }
@@ -84,12 +84,10 @@ i {
     bottom: 100px;
     position: relative;
     max-width: 500px;
-    width: 300px;
+    width: 250px;
   }
   .bg-home::before {
-    position: absolute;
-    width: 100%;
-    height: 100%;
+    background-size: contain;
   }
 }
 .container {
@@ -109,7 +107,7 @@ i {
   left: 0px;
   top: 0px;
   width: 100%;
-  height: 250%;
+  height: 200%;
   z-index: -1;
   background-size: cover;
   background-repeat: no-repeat;
@@ -117,6 +115,35 @@ i {
   background-position: 50% 0;
 }
 
+.hero {
+  color: #FFF;
+  min-height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 14px;
+  padding-left: 200px;
+  padding-top: 300px;
+}
+.hero .h1 {
+  text-align: center;
+}
+.hero p {
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+    min-height: 60vh;
+    padding: 20px;
+    padding-bottom: 700px;
+    align-items: center;
+    font-size: 10;
+  }
+  .hero h1 {
+    align-items: center;
+  }
+}
 body {
   font-family: "Sora", sans-serif;
   width: 100%;
@@ -131,7 +158,7 @@ button {
 }
 
 img {
-  width: 100%;
+  width: 80%;
 }
 
 a {
